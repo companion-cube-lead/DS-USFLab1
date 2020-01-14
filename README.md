@@ -1,5 +1,7 @@
 ## DS@USF - Lab 1
 
+## Context Framing
+
 You have been asked as a researcher to analyze the iris dataset which is a collection of features (columns) which descibe the lengths of different parts of a flower in a series of observations, or "examples." 
 
 ### A comment on "features" and "examples"
