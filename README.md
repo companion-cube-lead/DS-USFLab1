@@ -1,6 +1,3 @@
-# DS-USFLab1
-Repo for the first lab and student org activity for DS@USF 
-
 ## DS@USF - Lab 1
 
 You have been asked as a researcher to analyze the iris dataset which is a collection of features (columns) which descibe the lengths of different parts of a flower in a series of observations, or "examples." 
@@ -42,3 +39,29 @@ gain = arr_delay - dep_delay, # we create a NEW column
 speed = distance / air_time * 60 # We create ANOTHER column
 )
 ```
+In this example, we use the _mutate_ keyword on the dataframe which allows us to create new columns called "gain" and "speed" on the dataframe. The "gain" calcualtion represents the the difference between the arrival delays and the departure delays. Speed represents the distance divided by the time in the air multipled by 60.
+
+These tools allow us to create new measures and calculations we can use in our analysis. 
+
+Now you will follow along to perform similar operations on the iris dataset. 
+``` r
+# iris is already preloaded in the R environment
+# you can just assign it to a new dataframe like so 
+my_dataframe <- iris 
+
+# you can name the left side whatever you want 
+```
+In this example, everything I do to my dataset will be done to the "my_dataframe" variable which holds the 'iris' dataset. 
+
+
+## Questions to ask yourself in your exploration
+
+1. What measures and metrics can I use to better understand my dataset?
+2. How can I use dplyr to make my calculations? 
+3. How can I represent my findings in a readable and easy to understand way? 
+4. What questions do I need to ask about my dataset to better understand its validity and what questions am I _allowed_ to ask based on my understanding? 
+
+### Tasks
+1. Follow along with Zoe and get comfortable copying and getting your code to work and produce the same result 
+2. Submit your code to git (if it doesn't work, that's okay :) ) 
+
