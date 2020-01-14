@@ -63,5 +63,5 @@ In this example, everything I do to my dataset will be done to the "my_dataframe
 
 ### Tasks
 1. Follow along with Zoe and get comfortable copying and getting your code to work and produce the same result 
-2. Submit your code to git (if it doesn't work, that's okay :) ) 
+2. Submit your code to git (if your code doesn't work or its incomplete, that's okay :) ) 
 
