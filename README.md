@@ -13,7 +13,7 @@ As you can see, the language we are using for columns and rows (features and exa
 The first step in this data science workflow is to analyze the data (the data has already been extracted for us). Using tools like R and Python help us do this because they already have packages embedded in them where we can begin asking very specific questions of our data. If you have taken SQL, think of these packages as a very flexible set of querying tools. If you come from the spreadsheet world, think of the packages as easy ways to filter and pivot through an excel sheet. 
 
 To begin, install dplyr on your computer by running this code:
-_it's not necessary to this if you have already installed the package_
+_it's not necessary to do this if you have already installed the package_
 ``` r
 install.packages("dplyr")
 # notice that you need to put the name of the package in strings: ""
